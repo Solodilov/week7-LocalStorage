@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(156, 139, 139);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgb(255, 0, 0), rgba(189, 148, 148, 0.363)),
+    url('../img/1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container > input, .container button{
+    display: block;
+    margin: 1rem auto;
+}
+
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 115, 0)
+}
+
+
+.container h3{
+    margin: 2rem;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+
+.container p{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
